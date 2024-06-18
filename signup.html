@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        body{
+            background-color: rgb(12, 12, 12);
+        }
+        .box{
+            width: 400px;
+            height: 450px;
+            margin: 130px auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+        input[name="username"] {
+            
+            width: 100%;
+            outline: none;
+        }
+        input[name="password"] {
+            
+            width: 100%;
+            outline: none;
+        }
+        input[name="Age"] {
+            
+            width: 100%;
+            outline: none;
+        }input[name="Email"] {
+            
+            width: 100%;
+            outline: none;
+        }
+        select[id="batch"] {
+            
+            width: 100%;
+            outline: none;
+        }
+        h3{
+            text-align: center;
+            padding-top: 50px;
+        }
+        .main{
+            padding: 0px 40px;
+        }
+        button{
+            width: 100%;
+            background-color: rgb(9, 9, 10);
+            border: 0px;
+            color: aliceblue;
+            padding: 7px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>SIGN UP</h3>
+        <div class="main">
+            <label for="username">Name:</label>
+            <input type="text" name="username" required />
+            <br>
+            <br>
+            <label for="batch">Batch:</label>
+                <select id="batch" name="batch" required>
+                <option value="sigma1">Sigma 1.0</option>
+                <option value="sigma2">Sigma 2.0</option>
+                </select>
+                <br>
+                <br>
+            <label for="Age">Age:</label>
+            <input type="number" name="Age" required />
+            <br>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" required />
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="Password" name="password" required />
+            <button>Sign Up</button>
+        </div>
+        
+    </div>
+</body>
+</html>
